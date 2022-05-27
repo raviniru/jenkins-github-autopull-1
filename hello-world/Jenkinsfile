@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Static Analysissss Cron') {
+        stage('Static Analysis Cron') {
             steps {
                 echo 'Run the static analysis to the code' 
             }
@@ -28,7 +28,7 @@ pipeline {
         }
         stage('Publish Artifacts') {
             steps {
-                echo 'Save the assemblies generated from the compilation' 
+                echo 'Save theee assemblies generated from the compilation' 
             }
         }
     }
