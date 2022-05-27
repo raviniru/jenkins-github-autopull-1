@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Static Analysis Cr8666on') {
+        stage('Static Analysis Cron') {
             steps {
                 echo 'Run the static analysis to the code' 
             }
